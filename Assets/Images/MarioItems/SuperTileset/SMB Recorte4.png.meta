@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: b180022a097460344bb4207a61a16d4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4930192914986587664
+    second: SMB Recorte4_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SMB Recorte4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0165cebb5509b6440800000000000000
+      internalID: 4930192914986587664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fce7b0adf2a7234ba4db14eefca7577
+      internalID: 1307885288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688ef08767af02a42821f24117cd53f8
+      internalID: -685074430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d5426bdb82dca458802bc4ff5c84e9
+      internalID: -2010636239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f73d22c7aee34bbb663636604032a
+      internalID: 1547593548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d252255c873ba4faf8a024156c3a78
+      internalID: 864179649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb0919c4f8b82043add8a11f417c2d4
+      internalID: -1073299063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3442a855013f95e4e8a2d4065a1a24c6
+      internalID: 1724001353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte4_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799b09a9cee2c374a969eda33c84ee99
+      internalID: 1800316849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4db36c4014ebaad4f89b25c5708e5f4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":8.0,"y":8.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      SMB Recorte4_0: 4930192914986587664
+      SMB Recorte4_1: -685074430
+      SMB Recorte4_10: 864179649
+      SMB Recorte4_11: -1073299063
+      SMB Recorte4_12: 1724001353
+      SMB Recorte4_13: 1800316849
+      SMB Recorte4_14: -293935984
+      SMB Recorte4_15: 1137591300
+      SMB Recorte4_16: -1624486355
+      SMB Recorte4_17: -1212777309
+      SMB Recorte4_18: 634862370
+      SMB Recorte4_19: 59670076
+      SMB Recorte4_2: 1307885288
+      SMB Recorte4_20: 806295258
+      SMB Recorte4_21: -2083896912
+      SMB Recorte4_22: -842990172
+      SMB Recorte4_23: -1600770332
+      SMB Recorte4_24: -2052651184
+      SMB Recorte4_25: 841728997
+      SMB Recorte4_26: 1556486391
+      SMB Recorte4_27: 953461464
+      SMB Recorte4_28: -675601241
+      SMB Recorte4_29: -2125130697
+      SMB Recorte4_3: -1542413527
+      SMB Recorte4_30: -829899389
+      SMB Recorte4_31: 339827171
+      SMB Recorte4_32: -794939971
+      SMB Recorte4_33: 874136282
+      SMB Recorte4_34: -2143268191
+      SMB Recorte4_35: 1092133512
+      SMB Recorte4_36: -1917172306
+      SMB Recorte4_37: -656147809
+      SMB Recorte4_38: -788724060
+      SMB Recorte4_39: -1213527153
+      SMB Recorte4_4: 119947008
+      SMB Recorte4_40: 1769060067
+      SMB Recorte4_41: 363444227
+      SMB Recorte4_42: 490648386
+      SMB Recorte4_43: -386660903
+      SMB Recorte4_44: -1917848597
+      SMB Recorte4_45: 1063524809
+      SMB Recorte4_46: -1907463359
+      SMB Recorte4_47: -627394950
+      SMB Recorte4_48: 877278097
+      SMB Recorte4_49: -1511829120
+      SMB Recorte4_5: -1151967656
+      SMB Recorte4_50: -2077762904
+      SMB Recorte4_51: -1444209958
+      SMB Recorte4_52: -456241368
+      SMB Recorte4_53: 266019594
+      SMB Recorte4_54: -838825049
+      SMB Recorte4_55: -2086367249
+      SMB Recorte4_56: 1319010719
+      SMB Recorte4_57: 1335338005
+      SMB Recorte4_58: -351753032
+      SMB Recorte4_59: 832574364
+      SMB Recorte4_6: -1618265249
+      SMB Recorte4_60: 1154703723
+      SMB Recorte4_61: 1292484910
+      SMB Recorte4_62: -796496137
+      SMB Recorte4_63: -392454545
+      SMB Recorte4_64: -537745441
+      SMB Recorte4_65: 379501612
+      SMB Recorte4_66: -520881862
+      SMB Recorte4_67: -221713278
+      SMB Recorte4_68: -897242539
+      SMB Recorte4_69: 1781644645
+      SMB Recorte4_7: 792791882
+      SMB Recorte4_70: -225092057
+      SMB Recorte4_71: -1823068627
+      SMB Recorte4_72: -402117196
+      SMB Recorte4_73: -1384242822
+      SMB Recorte4_74: 1978201138
+      SMB Recorte4_75: 558817165
+      SMB Recorte4_76: -83390490
+      SMB Recorte4_77: -1925026263
+      SMB Recorte4_78: -1208972439
+      SMB Recorte4_79: 1465800893
+      SMB Recorte4_8: -2010636239
+      SMB Recorte4_9: 1547593548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
