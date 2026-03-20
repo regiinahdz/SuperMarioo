@@ -39,6 +39,11 @@ public class MuevePersonaje : MonoBehaviour
         {
             rb.linearVelocityY = VelocidadY; // Asigna la velocidad de salto al componente Rigidbody2D para que el personaje salte
         }
+        else 
+        {
+        // El salto "no jala" porque no está tocando el suelo
+        Debug.LogWarning("error");
+        }
     }
     
     // Update is called once per frame
