@@ -2,10 +2,14 @@
     <Style src="project://database/Assets/MenuPrincipaal.uss?fileID=7433441132597879392&amp;guid=80bd4ab5131e1b84f99b257db0d4f837&amp;type=3#MenuPrincipaal"/>
     <UnityEngine.UIElements.VisualElement name="Menumenu" class="menu" style="flex-grow: 1;">
         <UnityEngine.UIElements.Label text="Tarea Unity&#10;" name="Titulo" class="titulo"/>
-        <UnityEngine.UIElements.VisualElement name="Botones" class="botones" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; background-color: rgba(76, 76, 76, 0.52); border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; height: 10%; width: 45%;">
-            <UnityEngine.UIElements.Button text="Jugar" name="botonJugar" class="botonesJuego"/>
-            <UnityEngine.UIElements.Button text="Ayuda" name="botonAyuda" class="botonesJuego"/>
-            <UnityEngine.UIElements.Button text="Créditos" name="botonCreditos" class="botonesJuego"/>
+        <UnityEngine.UIElements.VisualElement name="Botones" class="botones" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; background-color: rgba(76, 76, 76, 0.52); border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; height: 10%; width: 45%; display: flex;">
+            <UnityEngine.UIElements.Button text="Jugar" name="BotonJugar" class="botonesJuego"/>
+            <UnityEngine.UIElements.Button text="Ayuda" name="BotonAyuda" class="botonesJuego"/>
+            <UnityEngine.UIElements.Button text="Créditos" name="BotonCreditos" class="botonesJuego"/>
+        </UnityEngine.UIElements.VisualElement>
+        <UnityEngine.UIElements.VisualElement name="PanelAyuda" class="botones" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; background-color: rgba(76, 76, 76, 0.98); border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; height: 10%; width: 45%; display: none; justify-content: flex-start; flex-direction: column; flex-wrap: wrap; align-items: center;">
+            <UnityEngine.UIElements.Button text="" name="BotonCerrarPanel" class="botonCerrarPanel" style="align-self: flex-end;"/>
+            <UnityEngine.UIElements.Label text="What is Lorem Ipsum?&#10;&#10;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages..." name="InfoAyuda" class="texto" style="-unity-text-align: lower-center; font-size: 33px;"/>
         </UnityEngine.UIElements.VisualElement>
     </UnityEngine.UIElements.VisualElement>
     <UnityEngine.UIElements.VisualElement name="Footer" class="footer" style="flex-grow: 1; align-items: auto; justify-content: flex-start; align-self: auto; align-content: auto;">

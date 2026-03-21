@@ -1,3 +1,6 @@
+//Regina Hernandez Moreno
+//A01802688
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -5,27 +8,42 @@ using UnityEngine.UIElements;
 public class Menu : MonoBehaviour
 {
     private UIDocument menu;
+    private VisualElement Botones;
+    private VisualElement PanelAyuda;
     private Button botonJugar;
     private Button botonAyuda;
     private Button botonCreditos;
     private Button botonCerrar;
+    private Button botonCerrarPanel;
 
     void OnEnable()
     {
         menu = GetComponent<UIDocument>();
         var root = menu.rootVisualElement;
 
+        Botones = root.Q<VisualElement>("Botones");
+        PanelAyuda = root.Q<VisualElement>("PanelAyuda");
+
         // Buscamos el botón
-        botonJugar = root.Q<Button>("botonJugar");
+        botonJugar = root.Q<Button>("BotonJugar");
+        botonAyuda = root.Q<Button>("BotonAyuda");
+
+        botonCerrarPanel = root.Q<Button>("BotonCerrarPanel");
 
         // Solo registramos si lo encontró
         if (botonJugar != null) 
         {
             botonJugar.RegisterCallback<ClickEvent>(AbrirMapita);
         }
-        else 
+
+        if (botonAyuda != null)
         {
-            Debug.LogError("ERROR: No se encontró un botón con el nombre 'botonJugar' en el UI Builder.");
+            botonAyuda.RegisterCallback<ClickEvent>(AbrirAyuda);
+        }
+
+        if (botonCerrarPanel != null)
+        {
+            botonCerrarPanel.RegisterCallback<ClickEvent>(CerrarAyuda);
         }
 
     }
@@ -41,10 +59,16 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-   /* private void AbrirAyuda(ClickEvent evn)
+    private void AbrirAyuda(ClickEvent evn)
     {
-        SceneManager.LoadScene(2);
-    }*/
+        Botones.style.display = DisplayStyle.None;
+        PanelAyuda.style.display = DisplayStyle.Flex;
+    }
+    private void CerrarAyuda(ClickEvent evn)
+    {
+        Botones.style.display = DisplayStyle.Flex;
+        PanelAyuda.style.display = DisplayStyle.None;
+    }
 
 }
 

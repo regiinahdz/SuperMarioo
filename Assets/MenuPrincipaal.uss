@@ -96,3 +96,28 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
 }
+
+.texto {
+    font-size: 30px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    white-space: pre-wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(255, 240, 245);
+    text-overflow: ellipsis;
+}
+
+.botonCerrarPanel {
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-7384953405098038083&guid=d0be7aa2ba27ab74d9d8a5defcebd192&type=3#Remove");
+    width: 50px;
+    margin-top: 40px;
+    margin-right: 40px;
+    height: 45px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.botonCerrarPanel:hover {
+    scale: 1.15 1.15;
+}
