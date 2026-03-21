@@ -90,6 +90,12 @@
     background-color: rgba(0, 0, 0, 0);
     background-image: url("project://database/Assets/Button&HallowenItems/UI%20button%20and%20hallowing%20element%20pack%205/white%20icon/close.png?fileID=2800000&guid=7ed175332bcd6bb4e9f2b8e2833d8c29&type=3#close");
     -unity-background-image-tint-color: rgba(115, 96, 115, 0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.botonCerrar:hover {
+    scale: 1.15 1.15;
 }
 
 .footer {
@@ -120,4 +126,31 @@
 
 .botonCerrarPanel:hover {
     scale: 1.15 1.15;
+}
+
+.panelCreditos {
+    background-color: rgb(51, 51, 51);
+}
+
+.tituloCreditos {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+}
+
+.textoCreditos {
+    -unity-font-style: normal;
+    font-size: 40px;
+    -unity-text-align: upper-center;
+    color: rgb(221, 160, 221);
+    white-space: pre-wrap;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
