@@ -1,3 +1,15 @@
-:root {
-
-}
+<UnityEngine.UIElements.UXML editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuPrincipaal.uss?fileID=7433441132597879392&amp;guid=80bd4ab5131e1b84f99b257db0d4f837&amp;type=3#MenuPrincipaal"/>
+    <UnityEngine.UIElements.VisualElement name="Menumenu" class="menu" style="flex-grow: 1;">
+        <UnityEngine.UIElements.Label text="Tarea Unity&#10;" name="Titulo" class="titulo"/>
+        <UnityEngine.UIElements.VisualElement name="Botones" class="botones" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; background-color: rgba(76, 76, 76, 0.52); border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; height: 10%; width: 45%;">
+            <UnityEngine.UIElements.Button text="Jugar" name="botonJugar" class="botonesJuego"/>
+            <UnityEngine.UIElements.Button text="Ayuda" name="botonAyuda" class="botonesJuego"/>
+            <UnityEngine.UIElements.Button text="Créditos" name="botonCreditos" class="botonesJuego"/>
+        </UnityEngine.UIElements.VisualElement>
+    </UnityEngine.UIElements.VisualElement>
+    <UnityEngine.UIElements.VisualElement name="Footer" class="footer" style="flex-grow: 1; align-items: auto; justify-content: flex-start; align-self: auto; align-content: auto;">
+        <UnityEngine.UIElements.Label text="Regina Hernandez Moreno A01802688" name="ID" class="identificacion" style="margin-right: 100px;"/>
+        <UnityEngine.UIElements.Button text="X" name="botonCerrar" class="botonCerrar" style="-unity-font-style: bold; font-size: 80px; color: rgb(255, 240, 245);"/>
+    </UnityEngine.UIElements.VisualElement>
+</UnityEngine.UIElements.UXML>
