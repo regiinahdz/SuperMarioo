@@ -12,7 +12,7 @@ public class Regresa : MonoBehaviour
         menu = GetComponent<UIDocument>();
         var root = menu.rootVisualElement; //no sabes el tipo de dato que es rootVisualElement, por eso se usa var
 
-        botonRegresa = root.Q<Button>("botonRegresa");
+        botonRegresa = root.Q<Button>("BotonRegresar");
         botonRegresa.clicked += Regresar;
 
     }

@@ -1,3 +1,6 @@
+//Regina Hernandez Moreno
+//A01802688
+
 using UnityEngine;
 
 public class EstadoPersonaje : MonoBehaviour
